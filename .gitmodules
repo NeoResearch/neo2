@@ -7,3 +7,6 @@
 [submodule "neo-plugins"]
 	path = neo-plugins
 	url = ./neo-plugins/
+[submodule "neo"]
+	path = neo
+	url = ./neo
