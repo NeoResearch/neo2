@@ -1,0 +1,9 @@
+[submodule "neo-vm"]
+	path = neo-vm
+	url = ./neo-vm/
+[submodule "neo-cli"]
+	path = neo-cli
+	url = ./neo-cli
+[submodule "neo-plugins"]
+	path = neo-plugins
+	url = ./neo-plugins/
