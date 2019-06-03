@@ -1,3 +1,6 @@
 *~
 build/
 nuget/
+neo-plugins/RpcWallet/RpcWallet/
+neo-plugins/SimplePolicy/SimplePolicy/
+neo-plugins/StatesDumper/StatesDumper/

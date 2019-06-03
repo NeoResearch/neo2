@@ -18,6 +18,18 @@
 #    UNIT TESTING INTEGRATED PROJECT
 # ===============================
 
+#for PLUGIN_TO_INCLUDE_I in ApplicationLogs ImportBlocks RpcNep5Tracker RpcSecurity RpcWallet SimplePolicy StatesDumper; do
+#  echo ""
+#  echo "================================================"
+#  echo "BUILDING plugin $PLUGIN_TO_INCLUDE_I"
+#  echo "================================================"
+#  echo ""
+#  dotnet remove /opt/neo-plugins/$PLUGIN_TO_INCLUDE_I/$PLUGIN_TO_INCLUDE_I.csproj package neo
+#  dotnet add /opt/neo-plugins/$PLUGIN_TO_INCLUDE_I/$PLUGIN_TO_INCLUDE_I.csproj reference /opt/neo/neo/neo.csproj
+#  dotnet publish /opt/neo-plugins/$PLUGIN_TO_INCLUDE_I/$PLUGIN_TO_INCLUDE_I.csproj -o $PLUGIN_TO_INCLUDE_I -c Release -r ubuntu.16.04-x64 -f netstandard2.0
+#  cp -ri /opt/neo-plugins/$PLUGIN_TO_INCLUDE_I/$PLUGIN_TO_INCLUDE_I/$PLUGIN_TO_INCLUDE_I.dll /opt/neo-cli/neo-cli/neo-cli/Plugins/
+#done
+
 echo ""
 echo "dotnet test integration "
 #(cd /opt/neo-vm/tests/ && dotnet test --verbosity n neo-vm.Tests/neo-vm.Tests.csproj)

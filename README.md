@@ -17,6 +17,12 @@ This project consists of the following main projects on Neo Blockchain 2.x:
 
 This project intends to keep track of the original branches at `neo-project`, and perhaps add some extra independent Unit Testing here that aggregates the whole four projects.
 
+### showing Internals
+
+To provide deeper testing (not fully in scope here), must add `[assembly: InternalsVisibleTo("Integration.UnitTests")]` to a few files
+- neo/neo/Properties/AssemblyInfo.cs
+- neo-plugins/SimplePolicy/SimplePolicyPlugin.cs
+
 ## License
 
 Same as all projects: MIT License
