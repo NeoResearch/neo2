@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>Integration.UnitTests</AssemblyName>
-    <RootNamespace>Integration.UnitTests</RootNamespace>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Integration.Tests</AssemblyName>
+    <RootNamespace>Integration.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +23,8 @@
 
   <ItemGroup>
     <ProjectReference Include="../neo-plugins/SimplePolicy/SimplePolicy.csproj" />
+    <ProjectReference Include="../neo-cli/neo-cli/neo-cli.csproj" />
+    <ProjectReference Include="../neo/neo/neo.csproj" />
   </ItemGroup>
 
 </Project>

@@ -33,7 +33,7 @@
 echo ""
 echo "dotnet test integration "
 #(cd /opt/neo-vm/tests/ && dotnet test --verbosity n neo-vm.Tests/neo-vm.Tests.csproj)
-(cd /opt/integration/Integration.UnitTests/ && dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover --verbosity n Integration.UnitTests.csproj)
+(cd /opt/integration/Integration.Tests/ && dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover --verbosity n Integration.Tests.csproj)
 echo ""
 
 exit 1
