@@ -31,7 +31,7 @@ On `code`, you can install `.NET Core Test Explorer` by [formulahendry](https://
 It will [require you to set English as main language](https://github.com/microsoft/vstest/issues/821)... This is how we solved on Portuguese:
 
 ```
-sudo mv /usr/share/dotnet/sdk/2.2.203/pt-BR mv /usr/share/dotnet/sdk/2.2.203/pt-BR-2
+sudo mv /usr/share/dotnet/sdk/2.2.203/pt-BR /usr/share/dotnet/sdk/2.2.203/pt-BR-2
 ```
 
 After that, just `code neo/`
