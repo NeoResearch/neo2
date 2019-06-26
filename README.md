@@ -34,7 +34,12 @@ It will [require you to set English as main language](https://github.com/microso
 sudo mv /usr/share/dotnet/sdk/2.2.203/pt-BR mv /usr/share/dotnet/sdk/2.2.203/pt-BR-2
 ```
 
-After that, just `code neo/neo.UnitTests/`
+After that, just `code neo/`
+
+On VSCode `settings.json` (or similar) you must add line:
+```js
+"dotnet-test-explorer.testProjectPath" : "neo.UnitTests/*.csproj"
+```
 
 ## License
 
